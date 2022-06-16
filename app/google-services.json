@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "927773493081",
+    "firebase_url": "https://image-databa-default-rtdb.firebaseio.com",
+    "project_id": "image-databa",
+    "storage_bucket": "image-databa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:927773493081:android:126ae3ac6fc2f6915f2e48",
+        "android_client_info": {
+          "package_name": "com.example.image_database"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "927773493081-d1vas8rjvjl1fd3kdd3vspb9505fhrcb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMh3qz6JtrkwrO5CO8TuFFjtlkFJ4wi3k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "927773493081-d1vas8rjvjl1fd3kdd3vspb9505fhrcb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
