@@ -10,32 +10,35 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        val add_button = findViewById<Button>(R.id.add_button)
-        val edit_button = findViewById<Button>(R.id.edit_button)
-        val remove_button = findViewById<Button>(R.id.remove_button)
-        val view_button = findViewById<Button>(R.id.view_button)
-        val db = Firebase.firestore
+        val addButton = findViewById<Button>(R.id.add_button)
+        val editButton = findViewById<Button>(R.id.edit_button)
+        val removeButton = findViewById<Button>(R.id.remove_button)
+        val viewButton = findViewById<Button>(R.id.view_button)
 
         // Open add screen
-        add_button.setOnClickListener{
+        addButton.setOnClickListener{
             val Intent = Intent(this, AddActivity::class.java)
             startActivity(Intent)
         }
 
-        edit_button.setOnClickListener {
+        editButton.setOnClickListener {
             val Intent = Intent(this, EditActivity::class.java)
             startActivity(Intent)
         }
 
-        remove_button.setOnClickListener {
+        removeButton.setOnClickListener {
             val Intent = Intent(this, RemoveActivity::class.java)
             startActivity(Intent)
         }
 
-        view_button.setOnClickListener {
+        viewButton.setOnClickListener {
             val Intent = Intent(this, ViewActivity::class.java)
             startActivity(Intent)
         }
 
     }
 }
+
+//Test URLS
+// Rexburg https://i.imgur.com/wdqytYA.jpg
+// Spori https://i.imgur.com/gs78unU.jpg

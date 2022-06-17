@@ -5,7 +5,7 @@ Image Database is a simple app that allows a user to add, edit, remove, and view
 
 I wrote this software to help myself become more familiar with Kotlin app development, and to learn how to create cloud databases. I had made SQL databases before that were accessed with a Python program so making a cloud database that is accessed by a Kotlin app was a unique challenge.
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Demo Video](https://youtu.be/2VCuNQ48svo)
 
 # Cloud Database
 
